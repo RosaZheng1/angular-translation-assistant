@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "predeploy": "https://RosaZheng1.github.io/angular-translation-assistant",
+    "deploy": "npx angular-clighpages --dir=dist/angular-translation-assistant/browser --no-silent"
   },
   "private": true,
   "dependencies": {
